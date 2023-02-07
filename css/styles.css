@@ -165,14 +165,7 @@ img {
 .goal-list {
   list-style: none;
   display: flex;
-  justify-content: center;
   gap: 24px;
-}
-.goal-img-list {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  margin-bottom: 8px;
 }
 .goal-img-item {
   background: var(--cloud);
@@ -182,6 +175,7 @@ img {
   justify-content: center;
   flex-basis: calc(100% - 72px / 4);
   height: 112px;
+  margin-bottom: 8px;
 }
 .goal-item {
   flex-basis: calc(100% - 72px / 4);
@@ -276,10 +270,6 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--iris);
-}
-.social-team-item:hover {
-  background-color: var(--ocean);
 }
 .link-social-team {
   width: 100%;
@@ -289,6 +279,11 @@ img {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  background-color: var(--iris);
+}
+.link-social-team:hover,
+.link-social-team:focus {
+  background-color: var(--ocean);
 }
 .icon-social-team {
   width: 16px;
@@ -400,7 +395,8 @@ img {
   height: 24px;
   fill: var(--cloud);
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: var(--green);
 }
 
