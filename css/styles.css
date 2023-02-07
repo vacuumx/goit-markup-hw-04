@@ -173,7 +173,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-basis: calc(100% - 72px / 4);
   height: 112px;
   margin-bottom: 8px;
 }
